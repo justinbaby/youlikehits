@@ -1,6 +1,6 @@
 const request = require("sync-request");
 
-const COOKIE_STRING =  '__utma=255682432.1310730169.1519115410.1519137815.1519177076.5; __utmb=255682432.2.10.1519177076; __utmz=255682432.1519115410.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmt=1; _pk_id.1.4ef9=7686d905cfa09a75.1519115487.4.1519138627.1519135105.; LBSESSIONID=A|WozNh|WozNV; PHPSESSID=5247d8b0c70b8e609ab5fbbd43ff52bc; __utmc=255682432';
+const COOKIE_STRING =  '__utma=255682432.191511692.1519127802.1519174825.1519185279.4; __utmz=255682432.1519127802.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _pk_id.1.4ef9=9418a2a8be749d70.1519127804.5.1519185358.1519181529.; tfuser=yzllz0001; tfsecure=4b56c7d0677c9d10e9178cb07335a866; tfpass=5321d138e68b02749c0f28c434e0a6b7; LBSESSIONID=A|Wo0FH|Wo0FH';
 const GET_VIDEO = "https://www.youlikehits.com/soundcloudplays.php?step=reload&rand="+Math.random();
 const USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36";
 const seconds = 3;
