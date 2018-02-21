@@ -6,8 +6,8 @@ const sync = require('child_process').execSync;
 const { log } = console;
 
 let answers = {
-    "cookie" : '__utma=255682432.191511692.1519127802.1519174825.1519185279.4; __utmz=255682432.1519127802.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _pk_id.1.4ef9=9418a2a8be749d70.1519127804.5.1519185358.1519181529.; tfuser=yzllz0001; tfsecure=4b56c7d0677c9d10e9178cb07335a866; tfpass=5321d138e68b02749c0f28c434e0a6b7; LBSESSIONID=A|Wo0FH|Wo0FH',
-    "captcha" : '11',
+    "cookie" : '__utmz=255682432.1519092935.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=642bcb55ea0a58033beae7075a3ed73e; __utma=255682432.1685870108.1519092935.1519125285.1519217188.6; __utmc=255682432; __utmt=1; _pk_ses.1.4ef9=*; LBSESSIONID=A|Wo1qP|Wo1qI; __utmb=255682432.2.10.1519217188; _pk_cvar.1.4ef9=%7B%7D; _pk_id.1.4ef9=e327c4762c774bdb.1519092935.6.1519217212.1519125900.',
+    "captcha" : '10',
     "times" : 25000
 };
 
