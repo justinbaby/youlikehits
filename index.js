@@ -108,7 +108,10 @@ const solveCaptcha = function(times = 3) {
 
 const requestURL = function(method, URL, options, checkers = [], times = 3) {
     if (times === 0) {
-        exit("URL REQUEST PROBLEM" + URL);
+        wait(10);
+        times = 3;
+        requestURL(method, URL, options, checkers, --times)
+        // exit("URL REQUEST PROBLEM" + URL);
     }
     let response,
         passed = true;
