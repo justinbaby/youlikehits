@@ -6,8 +6,8 @@ const sync = require('child_process').execSync;
 const { log } = console;
 
 let answers = {
-    "cookie" : 'PHPSESSID=79941c359655fb866b040a779347a63e; __utmt=1; __utma=255682432.1129091615.1519126798.1519185378.1519218460.3; __utmb=255682432.2.10.1519218460; __utmc=255682432; __utmz=255682432.1519126798.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _pk_cvar.1.4ef9=%7B%7D; _pk_id.1.4ef9=d457635c337fd395.1519126798.3.1519218571.1519185380.; _pk_ses.1.4ef9=*; tfuser=yzllz002; tfsecure=9d197bd21dc68b611d85aedff2338b41; tfpass=388d5a80de4fd3f269d6fab440892e0b; LBSESSIONID=A|Wo1wA|Wo1u+',
-    "captcha" : '15',
+    "cookie" : '__utma=255682432.191511692.1519127802.1519216922.1519219158.7; __utmz=255682432.1519127802.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _pk_id.1.4ef9=9418a2a8be749d70.1519127804.8.1519219163.1519217133.; LBSESSIONID=A|Wo1x3|Wo1x1; PHPSESSID=d0804e1fdc5228b956305e86fe11d5b7; __utmb=255682432.2.10.1519219158; __utmc=255682432; __utmt=1; _pk_cvar.1.4ef9=%7B%7D; _pk_ses.1.4ef9=*',
+    "captcha" : '48',
     "times" : 55000
 };
 
