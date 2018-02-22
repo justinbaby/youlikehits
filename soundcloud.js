@@ -1,8 +1,8 @@
 const request = require("sync-request");
 
-const COOKIE_STRING =  '__utma=255682432.191511692.1519127802.1519224510.1519304969.9; __utmz=255682432.1519127802.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _pk_id.1.4ef9=9418a2a8be749d70.1519127804.10.1519304971.1519229016.; LBSESSIONID=A|Wo7BD|Wo7BA; PHPSESSID=2be407bf35a0f4696ab0e6e027fca661; __utmb=255682432.2.10.1519304969; __utmc=255682432; __utmt=1; _pk_cvar.1.4ef9=%7B%7D; _pk_ses.1.4ef9=*';
+const COOKIE_STRING =  '__utma=255682432.1310730169.1519115410.1519229045.1519305279.10; __utmb=255682432.1.10.1519305279; __utmz=255682432.1519115410.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmt=1; _pk_id.1.4ef9=7686d905cfa09a75.1519115487.6.1519305279.1519181537.; LBSESSIONID=A|Wo7CQ|Wo7CH; PHPSESSID=0155b5b32ad910bda0c031830d2f14c8; __utmc=255682432; _pk_cvar.1.4ef9=%7B%7D; _pk_ses.1.4ef9=*';
 const GET_VIDEO = "https://www.youlikehits.com/soundcloudplays.php?step=reload&rand="+Math.random();
-const USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0";
+const USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393";
 const seconds = 3;
 const options = {
     headers : {
