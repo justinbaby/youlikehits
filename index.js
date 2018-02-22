@@ -6,8 +6,8 @@ const sync = require('child_process').execSync;
 const { log } = console;
 
 let answers = {
-    "cookie" : 'PHPSESSID=763737cc1227a533b889bae533234fef; __utmt=1; LBSESSIONID=A|Wo6zv|Wo6zu; __utma=255682432.1129091615.1519126798.1519285553.1519301560.10; __utmb=255682432.2.10.1519301560; __utmc=255682432; __utmz=255682432.1519126798.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _pk_cvar.1.4ef9=%7B%7D; _pk_id.1.4ef9=d457635c337fd395.1519126798.10.1519301565.1519285574.; _pk_ses.1.4ef9=*',
-    "captcha" : '13',
+    "cookie" : '__utma=255682432.191511692.1519127802.1519224510.1519304969.9; __utmz=255682432.1519127802.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _pk_id.1.4ef9=9418a2a8be749d70.1519127804.10.1519304971.1519229016.; LBSESSIONID=A|Wo7BD|Wo7BA; PHPSESSID=2be407bf35a0f4696ab0e6e027fca661; __utmb=255682432.2.10.1519304969; __utmc=255682432; __utmt=1; _pk_cvar.1.4ef9=%7B%7D; _pk_ses.1.4ef9=*',
+    "captcha" : '10',
     "times" : 55000
 };
 
@@ -19,7 +19,7 @@ let COOKIE_STRING, CAPTCHA_ANSWER;
 const GET_VIDEO =
     "https://www.youlikehits.com/youtubenew2.php?step=reload&rand="+Math.random();
 const USER_AGENT =
-    "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0";
+    "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0";
 
 const CAPTCHA_CHECKER = "Solve the Problem and Submit";
 const LOGIN_CHECKER = "Please login again";
