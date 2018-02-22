@@ -7,7 +7,7 @@ const { log } = console;
 
 let answers = {
     "cookie" : '__utma=255682432.1310730169.1519115410.1519229045.1519305279.10; __utmb=255682432.1.10.1519305279; __utmz=255682432.1519115410.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmt=1; _pk_id.1.4ef9=7686d905cfa09a75.1519115487.6.1519305279.1519181537.; LBSESSIONID=A|Wo7CQ|Wo7CH; PHPSESSID=0155b5b32ad910bda0c031830d2f14c8; __utmc=255682432; _pk_cvar.1.4ef9=%7B%7D; _pk_ses.1.4ef9=*',
-    "captcha" : '3',
+    "captcha" : '2',
     "times" : 55000
 };
 
