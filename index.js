@@ -6,7 +6,7 @@ const sync = require('child_process').execSync;
 const { log } = console;
 
 let answers = {
-    "cookie" : '__utma=255682432.1310730169.1519115410.1519657782.1519694527.37; __utmz=255682432.1519115410.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _pk_id.1.4ef9=7686d905cfa09a75.1519115487.31.1519659542.1519652066.; tfuser=yzllz0002; tfsecure=25e8e6c34ec487e0459ba4363f0b927f; tfpass=5321d138e68b02749c0f28c434e0a6b7; LBSESSIONID=A|WpS6m|WpS6m',
+    "cookie" : '__utma=255682432.1310730169.1519115410.1519694527.1519696538.38; __utmb=255682432.6.10.1519696538; __utmz=255682432.1519115410.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _pk_id.1.4ef9=7686d905cfa09a75.1519115487.31.1519659542.1519652066.; tfuser=yzllz0002; tfsecure=25e8e6c34ec487e0459ba4363f0b927f; tfpass=5321d138e68b02749c0f28c434e0a6b7; __utmt=1; LBSESSIONID=A|WpS7j|WpS6m; PHPSESSID=c3b9926354ecd4ec3a6e9ede99c2a300; __utmc=255682432',
     "captcha" : '1',
     "times" : 55000
 };
