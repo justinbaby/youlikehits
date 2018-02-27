@@ -6,7 +6,7 @@ const sync = require('child_process').execSync;
 const { log } = console;
 
 let answers = {
-    "cookie" : 'tfuser=yzllz001; tfsecure=f4666d90190c149338a0094bb8997db6; tfpass=5321d138e68b02749c0f28c434e0a6b7; __utmz=255682432.1519619747.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=9d55f2c6a04af17ae9b4ff2512887734; __utma=255682432.553145362.1519619747.1519652047.1519694411.4; __utmc=255682432; __utmt=1; _pk_cvar.1.4ef9=%7B%221%22%3A%5B%22userid%22%2C%222084126%22%5D%7D; _pk_ses.1.4ef9=*; LBSESSIONID=A|WpS0f|WpSyR; __utmb=255682432.5.10.1519694411; _pk_id.1.4ef9=9afc6d57906915e4.1519619748.4.1519694975.1519652322.',
+    "cookie" : 'tfuser=yzllz001; tfsecure=f4666d90190c149338a0094bb8997db6; tfpass=5321d138e68b02749c0f28c434e0a6b7; __utmz=255682432.1519619747.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=9d55f2c6a04af17ae9b4ff2512887734; __utma=255682432.553145362.1519619747.1519652047.1519694411.4; __utmc=255682432; _pk_cvar.1.4ef9=%7B%221%22%3A%5B%22userid%22%2C%222084126%22%5D%7D; _pk_ses.1.4ef9=*; __utmt=1; LBSESSIONID=A|WpS2s|WpSyR; __utmb=255682432.11.10.1519694411; _pk_id.1.4ef9=9afc6d57906915e4.1519619748.4.1519695536.1519652322.',
     "captcha" : '2',
     "times" : 55000
 };
@@ -19,7 +19,7 @@ let COOKIE_STRING, CAPTCHA_ANSWER;
 const GET_VIDEO =
     "https://www.youlikehits.com/youtubenew2.php?step=reload&rand="+Math.random();
 const USER_AGENT =
-    "Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1";
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36";
 
 
 const CAPTCHA_CHECKER = "Solve the Problem and Submit";
