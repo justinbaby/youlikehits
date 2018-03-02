@@ -6,7 +6,7 @@ const sync = require('child_process').execSync;
 const { log } = console;
 
 let answers = {
-    "cookie" : '__utma=255682432.1310730169.1519115410.1519919717.1519957565.58; __utmz=255682432.1519115410.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _pk_id.1.4ef9=7686d905cfa09a75.1519115487.44.1519919719.1519913878.; tfuser=yzllz0002; tfsecure=25e8e6c34ec487e0459ba4363f0b927f; tfpass=5321d138e68b02749c0f28c434e0a6b7; __utmb=255682432.1.10.1519957565; __utmt=1; LBSESSIONID=A|Wpi2P|Wpi2P; PHPSESSID=3b93c8d5315a998056e1bf4cdc1e6028; __utmc=255682432',
+    "cookie" : 'tfuser=yzllz002; tfsecure=9d197bd21dc68b611d85aedff2338b41; tfpass=388d5a80de4fd3f269d6fab440892e0b; __utmt=1; LBSESSIONID=A|WpkYJ|WpkYJ; PHPSESSID=c1b94634c7901d9ef37070617285c558; __utma=255682432.1129091615.1519126798.1519968997.1519981426.69; __utmb=255682432.3.10.1519981426; __utmc=255682432; __utmz=255682432.1519126798.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _pk_cvar.1.4ef9=%7B%221%22%3A%5B%22userid%22%2C%222091907%22%5D%7D; _pk_id.1.4ef9=d457635c337fd395.1519126798.66.1519982629.1519970024.; _pk_ses.1.4ef9=*',
     "captcha" : '2',
     "times" : 55000
 };
