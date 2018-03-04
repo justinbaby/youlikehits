@@ -1,6 +1,6 @@
 const request = require("sync-request");
 
-const COOKIE_STRING =  'tfuser=yzllz002; tfsecure=9d197bd21dc68b611d85aedff2338b41; tfpass=388d5a80de4fd3f269d6fab440892e0b; PHPSESSID=f23d7dc0b07adf1485439601a8ad380b; _pk_cvar.1.4ef9=%7B%221%22%3A%5B%22userid%22%2C%222091907%22%5D%7D; _pk_id.1.4ef9=d457635c337fd395.1519126798.76.1520091162.1520088067.; _pk_ses.1.4ef9=*; __utma=255682432.1129091615.1519126798.1520088064.1520090860.80; __utmb=255682432.6.10.1520090860; __utmc=255682432; __utmz=255682432.1519126798.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); LBSESSIONID=A|WprAa|Wpq0A';
+const COOKIE_STRING =  '__utma=255682432.191511692.1519127802.1520090870.1520131828.73; __utmz=255682432.1519127802.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _pk_id.1.4ef9=9418a2a8be749d70.1519127804.74.1520131828.1520090870.; tfuser=yzllz0001; tfsecure=4b56c7d0677c9d10e9178cb07335a866; tfpass=5321d138e68b02749c0f28c434e0a6b7; LBSESSIONID=A|Wpte8|Wpte8; PHPSESSID=335128a4094bc229001245b8920a4b22; _pk_cvar.1.4ef9=%7B%221%22%3A%5B%22userid%22%2C%222091938%22%5D%7D; _pk_ses.1.4ef9=*; __utmb=255682432.1.10.1520131828; __utmc=255682432; __utmt=1';
 const GET_VIDEO = "https://www.youlikehits.com/soundcloudplays.php?step=reload&rand="+Math.random();
 const USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0";
 const seconds = 3;
