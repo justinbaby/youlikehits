@@ -6,7 +6,7 @@ const sync = require('child_process').execSync;
 const { log } = console;
 
 let answers = {
-    "cookie" : 'PHPSESSID=60b4e20ba3a24583335e3648585f5227; __utmc=255682432; __utmz=255682432.1520081774.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); tfuser=yzllz001; tfsecure=f4666d90190c149338a0094bb8997db6; tfpass=5321d138e68b02749c0f28c434e0a6b7; _pk_cvar.1.4ef9=%7B%221%22%3A%5B%22userid%22%2C%222084126%22%5D%7D; _pk_ses.1.4ef9=*; __utma=255682432.971648381.1520081774.1520131659.1520144420.4; __utmt=1; __utmb=255682432.17.10.1520144420; _pk_id.1.4ef9=3cc9a375b7cee35a.1520081774.4.1520146219.1520132575.; LBSESSIONID=A|WpuXL|WpuQI',
+    "cookie" : 'tfuser=yzllz001; tfsecure=f4666d90190c149338a0094bb8997db6; tfpass=5321d138e68b02749c0f28c434e0a6b7; __utmz=255682432.1519619747.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=64500160e7814589a2644e2ea7f2c096; __utmc=255682432; __utma=255682432.553145362.1519619747.1520223658.1520228147.28; __utmt=1; _pk_cvar.1.4ef9=%7B%221%22%3A%5B%22userid%22%2C%222084126%22%5D%7D; _pk_ses.1.4ef9=*; LBSESSIONID=A|WpzYW|Wpy1q; __utmb=255682432.5.10.1520228147; _pk_id.1.4ef9=9afc6d57906915e4.1519619748.28.1520228442.1520224693.',
     "captcha" : '7',
     "times" : 55000
 };
