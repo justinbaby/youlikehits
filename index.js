@@ -6,8 +6,8 @@ const sync = require('child_process').execSync;
 const { log } = console;
 
 let answers = {
-    "cookie" : '__utma=255682432.191511692.1519127802.1520433553.1520488828.107; __utmz=255682432.1519127802.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _pk_id.1.4ef9=9418a2a8be749d70.1519127804.110.1520488829.1520436571.; tfuser=yzllz0001; tfsecure=4b56c7d0677c9d10e9178cb07335a866; tfpass=5321d138e68b02749c0f28c434e0a6b7; PHPSESSID=96fec2975ff8549ad53bc3aba7d7deef; LBSESSIONID=A|WqDRf|WqDRf; __utmb=255682432.1.10.1520488828; __utmc=255682432; __utmt=1; _pk_cvar.1.4ef9=%7B%221%22%3A%5B%22userid%22%2C%222091938%22%5D%7D; _pk_ses.1.4ef9=*',
-    "captcha" : '48',
+    "cookie" : '__utma=255682432.191511692.1519127802.1520503369.1520508673.110; __utmz=255682432.1519127802.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _pk_id.1.4ef9=9418a2a8be749d70.1519127804.113.1520508850.1520503374.; tfuser=yzllz0001; tfsecure=4b56c7d0677c9d10e9178cb07335a866; tfpass=5321d138e68b02749c0f28c434e0a6b7; PHPSESSID=68f8d6633e2ad15ac5092d6eb8443271; LBSESSIONID=A|WqEfs|WqEfA; __utmb=255682432.3.10.1520508673; __utmc=255682432; __utmt=1; _pk_cvar.1.4ef9=%7B%221%22%3A%5B%22userid%22%2C%222091938%22%5D%7D; _pk_ses.1.4ef9=*',
+    "captcha" : '8',
     "times" : 55000
 };
 
