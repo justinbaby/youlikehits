@@ -6,8 +6,8 @@ const sync = require('child_process').execSync;
 const { log } = console;
 
 let answers = {
-    "cookie" : 'tfuser=yzllz001; tfsecure=f4666d90190c149338a0094bb8997db6; tfpass=5321d138e68b02749c0f28c434e0a6b7; __utmz=255682432.1520492650.39.2.utmcsr=baidu|utmccn=(organic)|utmcmd=organic; PHPSESSID=8d96c6750e58c3f8ba98947a3f6cb4fc; __utmc=255682432; LBSESSIONID=A|WqEqv|WqEe5; __utma=255682432.553145362.1519619747.1520508648.1520511678.42; __utmt=1; __utmb=255682432.1.10.1520511678; _pk_cvar.1.4ef9=%7B%221%22%3A%5B%22userid%22%2C%222084126%22%5D%7D; _pk_id.1.4ef9=9afc6d57906915e4.1519619748.40.1520511678.1520508770.; _pk_ses.1.4ef9=*',
-    "captcha" : '27',
+    "cookie" : 'tfuser=yzllz001; tfsecure=f4666d90190c149338a0094bb8997db6; tfpass=5321d138e68b02749c0f28c434e0a6b7; __utmz=255682432.1520492650.39.2.utmcsr=baidu|utmccn=(organic)|utmcmd=organic; PHPSESSID=a0b159bfda2b867c1f8887ed7f5b7aa8; __utma=255682432.553145362.1519619747.1520569988.1520604984.46; __utmc=255682432; _pk_cvar.1.4ef9=%7B%221%22%3A%5B%22userid%22%2C%222084126%22%5D%7D; _pk_ses.1.4ef9=*; LBSESSIONID=A|WqKYj|WqKXO; __utmb=255682432.5.10.1520604984; _pk_id.1.4ef9=9afc6d57906915e4.1519619748.44.1520605326.1520570467.',
+    "captcha" : '6',
     "times" : 55000
 };
 
